@@ -35,10 +35,20 @@ a{
     background-color: white;
     color: black;
 }
+.butt-black{
+    background-color: black;
+    color: white;
+}
 .butt-small{
     padding: 0.6em 1em;
     border-radius: 50px;
     font-size: 0.9em;
+}
+.butt-big{
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 50px;
+    font-size: 1.2ems;
 }
 /* HEADER */
 header{
@@ -77,4 +87,31 @@ header{
     font-size: 1em;
     font-weight: bold;
     color: inherit;
+}
+
+/* MAIN */
+.banner{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8em 0;
+}
+.banner-content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-content .banner-title{
+    font-size: 2.4em;
+    margin-bottom: 0.9em;
+}
+
+.banner-content .buttons{
+    margin-top: 2em;
+}
+
+.banner-content .buttons:first-child{
+    margin-right: 1em;
 }
