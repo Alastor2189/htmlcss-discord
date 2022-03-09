@@ -34,10 +34,10 @@ a{
     display: table;
     clear: both;
 }
-
 .clmn{
     float: left;
 }
+
 /* BOTTONI */
 .butt-white{
     background-color: white;
@@ -46,6 +46,11 @@ a{
 .butt-black{
     background-color: black;
     color: white;
+}
+.butt-footer{
+    background-color: #7289da;
+    color: white;
+    
 }
 .butt-small{
     padding: 0.6em 1em;
@@ -142,7 +147,9 @@ header{
     padding: 2em;
     margin-top: 5em;
 }
-
+.facile{
+    background-color: #f6f6f6;
+}
 .clmn-img{
     width: 65%;
 }
@@ -151,5 +158,31 @@ header{
     margin-top: 2.5em;
     
 }
-
-
+/* footer */
+footer{
+    margin-top: 5em;
+    background-color: #23272a;
+    color: white;
+}
+footer .clearfix{
+    clear: both;
+}
+.clmn2{
+    float: right;
+    margin-top: 0.5em;
+}
+hr{
+    margin: 2em 0;
+}
+footer h2, hr{
+    color: #7289da;
+}
+.socials{
+    width: 30%;
+}
+.products, .company, .risorse, .norme{
+    width: 15%;
+}
+h4.foot-mtitle{
+    color: #7289da;
+}
