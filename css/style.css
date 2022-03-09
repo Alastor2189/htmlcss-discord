@@ -7,13 +7,21 @@ html{
     font-family: "Whitney", sans-serif;
 }
 img{
-    width: 100%;
+    
 }
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+
+/* margini */
+.mb1{
+    margin-top: 5em;
+}
+.mb2{
+    margin-top: 9em;
 }
 /* struttura contenitore */
 .container{
@@ -50,6 +58,15 @@ a{
     border-radius: 50px;
     font-size: 1.2ems;
 }
+/* Proprietà di testo */
+.text{
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-top: 1.2em;
+}
+.title {
+    font-size: 3em;
+  }
 /* HEADER */
 header{
     height: 60px;
@@ -115,3 +132,24 @@ header{
 .banner-content .buttons:first-child{
     margin-right: 1em;
 }
+.banner-title, .banner-text{
+    color: white;
+}
+
+/* First section  */
+
+.study{
+    padding: 2em;
+    margin-top: 5em;
+}
+
+.clmn-img{
+    width: 65%;
+}
+.text-clmn{
+    width: 35%;
+    margin-top: 2.5em;
+    
+}
+
+
